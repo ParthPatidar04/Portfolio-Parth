@@ -1,7 +1,8 @@
 
 import './App.css'
+import Home from './components/Home'
 import Navigation from './components/Navigation'
-import SlidingNavBar from './components/SlidingNavBar'
+
 
 function App() {
   
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
       <Navigation />
-      {/* <SlidingNavBar /> */}
+      <Home />
     </>
   )
 }

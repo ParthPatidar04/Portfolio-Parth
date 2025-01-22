@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes slide-left-to-right{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@layer utilities{
+    .animate-slide-left-to-right{
+        animation: slide-left-to-right 1.5s ease-out forwards;
+    }
+}
