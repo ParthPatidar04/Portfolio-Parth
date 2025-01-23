@@ -15,7 +15,7 @@ function Navigation() {
                 <div className='w-full justify-between flex md:basis-1/4 md:justify-center font-bold text-3xl'>
                     <div className='cursor-pointer'>Parth Patidar</div>
                     <div className='md:hidden cursor-pointer'>
-                        <div className={`fixed top-0 right-0 h-full bg-gray-800 text-white w-64 transform ${isSideBarOpen ? 'translate-x-0' : 'translate-x-full'}
+                        <div className={`fixed z-10 top-0 right-0 h-full bg-gray-800 text-white w-52 transform ${isSideBarOpen ? 'translate-x-0' : 'translate-x-full'}
                                         transition-transform duration-300 ease-in-out`}>
                             <div className='flex justify-end mt-2 mr-2'>
                                 <svg onClick={toggleSideBar} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff" fill="none">
