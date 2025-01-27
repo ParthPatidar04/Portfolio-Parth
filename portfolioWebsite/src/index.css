@@ -2,28 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes slide-left-to-right {
-    0% {
-        transform: translateX(-100%);
+@layer utilities {
+    @keyframes FadeIn {
+        0%{
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateY(0px);
+        }
     }
 
-    100% {
-        transform: translateX(0);
+    @keyframes ImgFadeIn {
+        0%{
+            opacity: 0;
+            /* transform: translateY(-20px); */
+        }
+        100%{
+            opacity: 1;
+            /* transform: translateY(0px); */
+        }
     }
+
 }
 
-@layer utilities {
+.animate-fadeIn{
+    animation: FadeIn 1s ease-in-out;
+}
 
-    .animate-slide-left-to-right {
-        animation: slide-left-to-right 1.5s ease-out forwards;
-    }
-
-    .delay-1000 {
-        animation-delay: 1000ms;
-    }
-
-    .delay-2000 {
-        animation-delay: 2000ms;
-    }
-
+.animate-imgFadeIn{
+    animation: ImgFadeIn 1s ease-in-out;
 }
