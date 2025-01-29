@@ -1,8 +1,10 @@
 
 import './App.css'
+// import Footer from './components/Footer'
 import Navigation from './components/Navigation'
+// import Skills from './components/Skills'
 import ThemeBtn from './components/ThemeBtn'
-// import Home from './components/Home'
+import Home from './components/Home'
 
 
 function App() {
@@ -16,7 +18,12 @@ function App() {
         <ThemeBtn />
       </nav>
 
-      {/* <Home /> */}
+      <Home />
+      {/* <Skills /> */}
+      <div className=''>
+      {/* <Footer /> */}
+      </div>
+      
     </>
   )
 }

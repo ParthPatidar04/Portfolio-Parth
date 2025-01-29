@@ -4,7 +4,7 @@ import profile from '../assets/profilePhoto.jpeg'
 function Home() {
 
     return (
-        <div className='flex flex-col justify-center items-center md:mt-52 mt-40'>
+        <div className='flex flex-col justify-center items-center md:mt-44 mt-40'>
             <div>
                 <img className='w-40 h-40 md:w-60 md:h-60 border-4 border-white rounded-[80px] md:rounded-[120px] animate-imgFadeIn' src={profile} alt="profile" />
             </div>

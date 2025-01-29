@@ -28,9 +28,9 @@
 }
 
 .animate-fadeIn{
-    animation: FadeIn 1s ease-in-out;
+    animation: FadeIn 2s ease-in-out;
 }
 
 .animate-imgFadeIn{
-    animation: ImgFadeIn 1s ease-in-out;
+    animation: ImgFadeIn 3s ease-in-out;
 }
