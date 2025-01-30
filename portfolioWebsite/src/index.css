@@ -4,22 +4,24 @@
 
 @layer utilities {
     @keyframes FadeIn {
-        0%{
+        0% {
             opacity: 0;
             transform: translateY(-20px);
         }
-        100%{
+
+        100% {
             opacity: 1;
             transform: translateY(0px);
         }
     }
 
     @keyframes ImgFadeIn {
-        0%{
+        0% {
             opacity: 0;
             /* transform: translateY(-20px); */
         }
-        100%{
+
+        100% {
             opacity: 1;
             /* transform: translateY(0px); */
         }
@@ -27,10 +29,17 @@
 
 }
 
-.animate-fadeIn{
+.animate-fadeIn {
     animation: FadeIn 2s ease-in-out;
 }
 
-.animate-imgFadeIn{
+.animate-imgFadeIn {
     animation: ImgFadeIn 3s ease-in-out;
+}
+
+input::placeholder {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0;
 }

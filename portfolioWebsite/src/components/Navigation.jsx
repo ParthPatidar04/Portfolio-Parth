@@ -19,7 +19,7 @@ function Navigation() {
 
     return (
         <div>
-            <nav className='flex justify-between md:justify-around items-center  shadow-[0_8px_6px_-1px_rgba(0,0,0,0.5)] h-14 bg-blue-100 dark:bg-[#212121]'>
+            <nav className='flex justify-between md:justify-around items-center h-12 bg-blue-100 dark:bg-[#212121]'>
                 <div className='md:hidden ml-2'>
                     <img className='cursor-pointer' onClick={toggleSideBar} src={whiteMenu} alt="menu" />
                 </div>

@@ -4,7 +4,8 @@ import './App.css'
 import Navigation from './components/Navigation'
 // import Skills from './components/Skills'
 import ThemeBtn from './components/ThemeBtn'
-import Home from './components/Home'
+// import Home from './components/Home'
+import Contact from './components/Contact'
 
 
 function App() {
@@ -18,8 +19,9 @@ function App() {
         <ThemeBtn />
       </nav>
 
-      <Home />
+      {/* <Home /> */}
       {/* <Skills /> */}
+      <Contact />
       <div className=''>
       {/* <Footer /> */}
       </div>

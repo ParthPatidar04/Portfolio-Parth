@@ -4,7 +4,7 @@ function Skills() {
     return (
         <div className='flex flex-col items-center justify-center animate-fadeIn'>
             <div className='text-[40px] font-extrabold text-violet-500 mt-14 mb-8'>My Skills</div>
-            <div className='flex gap-x-32 mt-6'>
+            <div className='flex flex-wrap justify-center gap-y-6 gap-x-32 mt-6'>
                 <div className=' w-80 text-center p-4 rounded-2xl bg-[#292928]'>
                     <div className='font-bold text-3xl text-violet-500'>Frontend</div>
                     <ul className='mt-4'>
