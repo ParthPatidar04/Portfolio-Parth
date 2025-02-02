@@ -17,6 +17,9 @@ function Contact() {
                     <div className='mb-1'>Message</div>
                     <textarea className='bg-[#212121] border border-white p-2 w-[95%] h-36 rounded-lg resize-none' placeholder='enter message' name="" id=""></textarea>
                 </div>
+                <div className='mx-14 my-4'>
+                    <button className='bg-violet-500 w-[95%] p-2 rounded-lg font-bold'>Send Message</button>
+                </div>
             </div>
 
         </div>

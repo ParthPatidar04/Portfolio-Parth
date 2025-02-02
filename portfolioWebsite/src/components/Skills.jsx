@@ -15,7 +15,7 @@ function Skills() {
                         <li className='mb-2 text-xl border border-none rounded-2xl p-2 bg-[#4a4846]'>Tailwind CSS</li>
                     </ul>
                 </div>
-                <div className=' w-80 text-center p-4 rounded-2xl bg-[#292928]'>
+                <div className=' w-80 mb-6 text-center p-4 rounded-2xl bg-[#292928]'>
                     <div className='font-bold text-3xl text-violet-500'>Tools</div>
                     <ul className='mt-4'>
                         <li className='mb-2 text-xl border border-none rounded-2xl p-2 bg-[#4a4846]'>Git</li>

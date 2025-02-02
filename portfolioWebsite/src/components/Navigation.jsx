@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import sun from '../assets/sun.svg'
 // import moon from '../assets/moon.svg'
 // import darkMenu from '../assets/dark-menu.svg'
 import whiteMenu from '../assets/white-menu.svg'
@@ -19,7 +19,7 @@ function Navigation() {
 
     return (
         <div>
-            <nav className='flex justify-between md:justify-around items-center h-12 bg-blue-100 dark:bg-[#212121]'>
+            <nav className='flex justify-between md:justify-around items-center h-12 -[#212121]'>
                 <div className='md:hidden ml-2'>
                     <img className='cursor-pointer' onClick={toggleSideBar} src={whiteMenu} alt="menu" />
                 </div>
@@ -40,7 +40,9 @@ function Navigation() {
                     <li className='cursor-pointer'>Skills</li>
                     <li className='cursor-pointer'>Contact</li>
                 </ul>
-                
+                <div className='mr-2'>
+                      <img src={sun} alt="" />
+                    </div>
             </nav>
         </div>
     )

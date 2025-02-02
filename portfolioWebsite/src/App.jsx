@@ -1,11 +1,12 @@
 
 import './App.css'
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 import Navigation from './components/Navigation'
 // import Skills from './components/Skills'
-import ThemeBtn from './components/ThemeBtn'
 // import Home from './components/Home'
-import Contact from './components/Contact'
+// import Contact from './components/Contact'
+// import About from './components/About'
+import Project from './components/Project'
 
 
 function App() {
@@ -13,20 +14,21 @@ function App() {
   
 
   return (
-    <>
+    <div className='flex flex-col justify-between  min-h-screen'>
       <nav className='flex justify-between md:justify-around items-center shadow-[0_8px_6px_-1px_rgba(0,0,0,0.5)] h-14'>
         <Navigation />
-        <ThemeBtn />
       </nav>
 
       {/* <Home /> */}
+      {/* <About /> */}
       {/* <Skills /> */}
-      <Contact />
-      <div className=''>
-      {/* <Footer /> */}
+      {/* <Contact /> */}
+      <Project />
+      <div className='border border-black shadow-[0_-8px_6px_-1px_rgba(0,0,0,0.5)]'>
+      <Footer />
       </div>
       
-    </>
+    </div>
   )
 }
 
