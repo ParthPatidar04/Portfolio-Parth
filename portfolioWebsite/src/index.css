@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+[data-theme = "light"] {
+    --bg-color: #FFF;
+    --text-color: #212121;
+}
+
+[data-theme = "dark"] {
+    --bg-color: #212121;
+    --text-color: #FFF ;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
 @layer utilities {
     @keyframes FadeIn {
         0% {

@@ -10,7 +10,7 @@ function Home() {
             </div>
             <div className={`mt-6 text-[35px] font-extrabold animate-fadeIn`}>Hi, I'm <span className='text-violet-500'>Parth</span></div>
             <div className='mt-4 md:text-2xl text-xl font-bold animate-fadeIn'>A Passionate <span className='text-violet-500'>Frontend Developer</span></div>
-            <button className='mt-6 bg-violet-500 px-4 py-3 rounded-2xl font-bold duration-300 ease-in transition-all hover:px-5 hover:py-4 animate-fadeIn'>View My Resume</button>
+            <button className='text-white dark:text-black mt-6 bg-violet-500 px-4 py-3 rounded-2xl font-bold duration-300 ease-in transition-all hover:px-5 hover:py-4 animate-fadeIn'>View My Resume</button>
         </div>
     )
 }
